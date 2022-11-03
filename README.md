@@ -5,23 +5,40 @@ DOM Fundamentals
 What is the DOM?
 Document Object Model, It allow us to change html and css via JS after both file is loaded.
 
+
 DOM Tree Analogy
 this analogy is used to describe how html tags work, mainly <body> tag is main root and than other elements are branched out from there with most nested elemets being furtherest(ie. lives on branch).
 preaty good.
 
+
 Selecting Elements in the DOM
 how to select elements/tags of html via JS?
-1) GetElementById()
-2)
-3)
-4)
+1) GetElementById('');
+2) getElementByClassName('');
+3) getElementByTagName('');
+4) querySelector(''); 
+5) querySelectorAll(''); 
 
 
 Styling an Element
+// first make it into variable of what we want to change, then variable-name.style.Property-that-we-want-to-change 
+
+
 Creating Elements
+const CreatingElementsLi = document.createElement('li');
+
+
 Adding Elements
+// adding elements use append()
+CreatingElementsUl.append(CreatingElementsLi);
+
 Modify Text
+// adding content to created list item
+CreatingElementsLi.innerText = 'X-Men';
+
 Modifying Elements Attributes & Classes
+
+
 Remove an Element
 DOM Tree Recap
 Traversing the DOM
