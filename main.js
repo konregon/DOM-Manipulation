@@ -59,3 +59,22 @@ console.log(firstListItem.textContent);
 console.log(firstListItem.innerHTML);
 
 CreatingElementsLi.innerText = 'X-Men';
+
+// Modifying Elements Attributes & Classes
+// Attributes
+CreatingElementsLi.setAttribute('id', 'main-heading');
+CreatingElementsLi.removeAttribute('id');
+
+const title2 = document.querySelector('#main-heading');
+console.log(title.getAttribute('id'));
+
+// class
+CreatingElementsLi.classList.add('list-item');
+CreatingElementsLi.classList.remove('list-item');
+
+
+// remove an Element
+CreatingElementsLi.remove();
+
+
+
